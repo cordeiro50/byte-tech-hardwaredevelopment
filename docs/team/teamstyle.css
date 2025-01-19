@@ -9,6 +9,7 @@ html{
     font-size: 62.5%;
     scroll-timeline: --page-scroll block;
     scroll-behavior: smooth;
+    scroll-padding-top: 100px;
 }
 
 :root{

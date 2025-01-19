@@ -9,6 +9,7 @@ html{
     font-size: 62.5%;
     scroll-timeline: --page-scroll block;
     scroll-behavior: smooth;
+    scroll-padding-top: 100px;
 }
 
 :root{
@@ -339,6 +340,7 @@ html{
 .facility-layout{
     position: relative;
     display: flex;
+    padding: 0 0 15% 0;
     flex-direction: column;
     justify-content: space-between;
     align-items: normal;
@@ -433,7 +435,7 @@ html{
 .facility-network{
     position: relative;
     display: flex;
-    padding: 15% 0;
+    padding: 0 0 15% 0;
     flex-direction: column;
     justify-content: space-between;
     align-items: normal;
@@ -497,7 +499,7 @@ html{
 .facility-divisions{
     position: relative;
     display: flex;
-    padding: 10% 0;
+    padding: 0 0 15% 0;
     flex-direction: column;
     justify-content: center;
     align-items: normal;
