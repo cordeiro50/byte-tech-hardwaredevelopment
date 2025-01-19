@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Byte Tech - Hardware Development</title>
+    <link rel="stylesheet" href="bytetechstyle.css">
+    <link rel="icon" href="images/favicon.ico?" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://emoji-css.afeld.me/emoji.css">
+    <!----use this tag for other projects------meta name="viewport" content="width=device-width, initial-scale=1.0"--------------->
+</head>
+
+
+<body class="body">
+
+    <div class="back-to-top" id="backToTop">
+        <a href="#header"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+
+
+    <!------------------------------------------------------header----------------------------------------------------------->
+    <section id="header">
+        <div class="navbar-placeholder"></div>
+        <header class="navbar">
+            <div class="logo">
+                <a href="#" class="nav-link" id="byte-tech">Byte Tech</a>
+            </div>
+            <nav class="menu">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <a href="#"  class="headercompanyinformation" id="nav-link">Company Information</a>
+                    </li>
+                    <li class="menu-item dropdown">
+                        <a href="#" class="headerwork" id="nav-link">Work & Services <i class="fa-solid fa-arrow-right fa-rotate-90"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="headerwork1" id="nav-link">Hardware Creation, Design & Configuration</a></li>
+                            <li><a href="#" class="headerwork2" id="nav-link">Hardware Maintenance & Repair</a></li>
+                            <li><a href="#" class="headerwork3" id="nav-link">Prototyping and Testing</a></li>
+                            <li><a href="#" class="headerwork4" id="nav-link">Component Sourcing & Supply Chain Management</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item dropdown">
+                        <a href="#" class="headercompanyfacility" id="nav-link">Company Facility <i class="fa-solid fa-arrow-right fa-rotate-90"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="headercompanyfacility1" id="nav-link">Facility Layout</a></li>
+                            <li><a href="#" class="headercompanyfacility2" id="nav-link">Facility Network</a></li>
+                            <li><a href="#" class="headercompanyfacility3" id="nav-link">Facility Divisions</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item dropdown">
+                        <a href="#" class="headerteam" id="nav-link">Team <i class="fa-solid fa-arrow-right fa-rotate-90"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="headerteam1" id="nav-link">Operational Departments</a></li>
+                            <li><a href="#" class="headerteam2" id="nav-link">Administrative Departments</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="headercontactus" id="nav-link">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header-buttons">
+                <div class="menu-container">
+                    <button class="icons-toggle" id="icons-toggle" data-tooltip="Menu">
+                        <i class="fa-solid fa-gear"></i>
+                    </button>
+                    <div class="icons-dropdown">
+                        <!-- Color theme buttons -->
+                        <div class="dropdown-row">
+                            <div class="color-theme-buttons">
+                                <button><a href="#" id="light-mode" data-tooltip="Light"><i class="fa-regular fa-sun"></i></a></button>
+                            </div>
+                            <div class="color-theme-buttons">
+                                <button><a href="#" id="dark-mode" data-tooltip="Dark"><i class="fa-regular fa-moon"></i></a></button>
+                            </div>
+                            <div class="color-theme-buttons">
+                                <button><a href="#" id="system-mode" data-tooltip="System"><i class="fa-solid fa-laptop"></i></a></button>
+                            </div>
+                        </div>
+                        <!-- Language buttons -->
+                        <div class="dropdown-row">
+                            <div class="language-buttons">
+                                <i class="em em-flag-us" Language="en" data-tooltip="US" aria-role="presentation" aria-label="U.S. Flag"></i>
+                            </div>
+                            <div class="language-buttons">
+                                <i class="em em-flag-pt" Language="pt" data-tooltip="PT" aria-role="presentation" aria-label="Portugal Flag"></i>
+                            </div>
+                            <div class="language-buttons">
+                                <i class="em em-flag-ea" Language="es" data-tooltip="ES" aria-role="presentation" aria-label="Ceuta & Melilla Flag"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div>
+            <img class="bytetech-logo" src="images/logopng.png">
+        </div>
+        
+        <div class="slideshow-container">
+            <div class="Slides">
+              <img src="images/slide1.png" style="width:100%">
+              <div class="headerslidetext1" id="slidestext">Tiny Heroes, Big Impact: A Creative Take on Hardware Repair and Innovation.</div>
+            </div>
+          
+            <div class="Slides">
+              <img src="images/slide2.png" style="width:100%">
+              <div class="headerslidetext2" id="slidestext">Innovating Through Code: Designing the Brains Behind Modern Hardware.</div>
+            </div>
+          
+            <div class="Slides">
+              <img src="images/slide3.png" style="width:100%">
+              <div class="headerslidetext3" id="slidestext">Efficiency in Action: Managing Inventory and Supply to Power Every Project.</div>
+            </div>
+
+            <div class="Slides">
+                <img src="images/slide4.png" style="width:100%">
+                <div class="headerslidetext4" id="slidestext">Precision at Work: Replacing and Upgrading Critical Components for Optimal Performance.</div>
+            </div>
+          
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+            <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+    </section>
+
+    <!-------------------------------------------------------------companyinformation----------------------------------------------------------------->
+    <section id="companyinformation">
+        <div class="companyinformation-contents">
+
+            <div class="companyinformation-text-container">
+                <div>
+                    <h1>Company Information</h1>
+                </div>
+
+                <div>
+                    <p>ByteTech is a technology company specializing in the development of custom hardware for individual clients and businesses across various industries. Its main services include: hardware design or architecture and creation, hardware configuration, testing, and maintenance.<br><br>When creating this company, my goal was to implement a secure and efficient network infrastructure, integrating an Active Directory system for centralized resource management and a firewall to ensure the security of data and communications. Other objectives include: Planning and Analysis, Server and Active Directory Configuration, Firewall Implementation, Integration and Configuration of Services, Testing and Validation, Continuous Monitoring, and Backups.</p>
+                </div>
+            </div>
+
+            <div class="companyinformation-buttons">
+                <a href="https://cordeiro50.github.io/personal-portfolio/#header" id="read-more-button" class="readmorebuttoncompanyinformation">Read More</a>
+                <a class="word-download-bytetech" href="files/empresa byte tech PAF (1) (1) (1) (1) (1).docx" download><i class="fa-regular fa-file-word"></i></a>
+                <a class="pdf-download-bytetech" href="files/empresa byte tech PAF (1) (1) (1) (1) (1) PDF.pdf" download><i class="fa-regular fa-file-pdf"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------------------------------------------work------------------------------------------------------------------->
+    <section id="work">
+        <div class="work-contents">
+
+            <div class="work-text-container">
+                <div class="work-title">
+                    <h1>Our Work</h1>
+                </div>
+    
+                <div class="work-text">
+                    <p class="work-p1">At ByteTech, we offer comprehensive services that cover all aspects of hardware development.<br><br>Our core services include Hardware Creation, Design & Configuration, Hardware Maintenance & Repair, Prototyping and Testing, and Component Sourcing & Supply Chain Management.<br>Each service is tailored to meet the unique needs of our clients, whether individuals or companies from various industries.<br><br></p>
+                    <p class="work-p2">With a structured organization ensuring efficiency and quality, every department collaborates seamlessly to deliver high-quality products on time.<br>Combining expertise, innovation, and a commitment to excellence, ByteTech ensures every project exceeds client expectations while meeting the highest industry standards.</p>
+                </div>
+
+                <div class="work-buttons">
+                    <a href="https://cordeiro50.github.io/personal-portfolio/#header" id="read-more-button" class="readmorebuttonwork">Read More</a>
+                </div>
+
+                <div class="work-text-bar">
+                    <p>
+                        Hardware Creation, Design & Configuration <i class="em em-computer" aria-role="presentation" aria-label="PERSONAL COMPUTER"></i>
+                        Hardware Maintenance & Repair <i class="em em-wrench" aria-role="presentation" aria-label="WRENCH"></i>
+                        Prototyping and Testing <i class="em em-clipboard" aria-role="presentation" aria-label="CLIPBOARD"></i>
+                        Component Sourcing & Supply Chain Management <i class="em em-package" aria-role="presentation" aria-label="PACKAGE"></i>
+                    </p>
+                </div>
+
+            </div>
+
+            <img class="work-img" src="images/workimg.png">
+
+        </div>
+    </section>
+
+    <!------------------------------------------------companyfacility-------------------------------------------------------->
+    <section id="companyfacility">
+
+        <div class="companyfacility-title">
+            <h1>Company Facility</h1>
+        </div>
+
+        <div class="companyfacility-contents">
+
+            <img class="companyfacility-img" src="images/plantabytetechimg.png">
+
+            <div class="companyfacility-text-container">
+    
+                <div class="companyfacility-text">
+                    <p>The company's office space spans 189.55 m².<br>The entrance leads to the reception area. To the left are the restrooms, the directors' office, and the surveillance camera control room.<br>To the right, a corridor connects three office rooms, a meeting room, a server room, and the administration office.<br><br>Most of the work takes place in the three office rooms:</p> 
+                    <li>Project Management</li>
+                    <li>Hardware Development</li>
+                    <li>Quality Control</li>
+                </div>
+
+                <div class="companyfacility-buttons">
+                    <a href="https://cordeiro50.github.io/personal-portfolio/#header" id="read-more-button" class="readmorebuttoncompanyfacility">Read More</a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!------------------------------------------------team-------------------------------------------------------->
+    <section id="team">
+        <div class="team-contents">
+
+            <div class="team-title">
+                <h1>Our Team</h1>
+            </div>
+
+            <div class="team-text">
+                <p>The company has a team of 19 professionals distributed across 3 departments, along with an additional team of 4 directors. There is also an administrator, an accountant, a receptionist, and a security officer, all distributed across various divisions and departments of the company.<br>In total, there are 27 employees, not including the CEO.</p>
+            </div>
+
+            <div class="team-buttons">
+                <a href="https://cordeiro50.github.io/personal-portfolio/#header" id="read-more-button" class="readmorebuttonteam">Read More</a>
+            </div>
+
+            <img class="team-img" src="images/organogramaimg.png">
+
+        </div>
+    </section>
+
+    <!-------------------------------------------------------footer-------------------------------------------------------------------->
+    <footer id="footer">
+        <div class="footer-class">
+
+            <div class="footer-disclaimer">
+                <div>
+                    <h1>Disclaimer</h1>
+                </div>
+                <div>
+                    <p class="footer-disclaimer-p1">Byte Tech is a completely fictional company created solely for the purpose of this project.<br>All details regarding its employees, location, services, products, equipment, and other associated elements are entirely fictional and were developed as part of a conceptual project. This company does not exist in real life, and any resemblance to real businesses or individuals, living or dead, is purely coincidental.</p>
+                </div>
+                <div>
+                    <p class="footer-disclaimer-p2">The project, including its website, files, content, and operations, were created for educational, demonstrative, or academic purposes only.<br>No actual services, products, or transactions are being offered, and this project is non-commercial.<br>The project does not intend to mislead or confuse the public in any way, nor is it intended to generate profits or engage in business activities.</p>
+                </div>
+            </div>
+
+            <div class="footer-content">
+
+                <div class="footer-col1">
+                    <div>
+                        <h1>Byte Tech</h1>
+                    </div>
+                    <div>
+                        <p class="footer-col1-p1">This website was made using HTML, CSS and Java Script along with some icons from Font Awesome.<br><br></p>
+                        <p class="footer-col1-p2">If the website has any issues, please contact me.<br>Some of it's contents are subject to change.<br><br></p>
+                        <p class="footer-col1-p3">To view more projects visit the website's creator portfolio:</p>
+                    </div>
+
+                    <a href="https://cordeiro50.github.io/personal-portfolio/" class="footer-col1-portfolio-button" target="_blank">My Portfolio</a>
+                    
+                </div>
+                    
+                <div class="footer-col2">
+                    <div class="footer-col2-title">
+                        <h1>Download Word/PDF</h1>
+                    </div>
+                    <div class="downloadwordfooter">
+                        <a href="files/empresa byte tech PAF (1) (1) (1) (1) (1).docx" download class="footer-download-button">Download Word</a>
+                    </div>
+                    <div class="downloadpdffooter">
+                        <a href="files/empresa byte tech PAF (1) (1) (1) (1) (1) PDF.pdf" download class="footer-download-button">Download PDF</a>
+                    </div>
+                </div>
+
+                <div class="verticalline-divider"></div>
+
+                <div>
+                    <div class="footer-col3">
+                        <div>
+                            <h1>Contact Us</h1>
+                        </div>
+                        
+                        <a href="https://cordeiro50.github.io/personal-portfolio/#header" id="contact-us-button" class="contactusbuttonfooter">Contacts</a>
+
+                        <div class="footer-col3-icons">
+                            <div>
+                                <a class="contactme-email" href="mailto:joaomanuelcarvalho500@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                            </div>   
+                            <div>
+                                <a class="contactme-phonenumber" href="tel:+351930687334"><i class="fa-solid fa-phone"></i></a>
+                            </div>
+                            <div>
+                                <a class="contactme-linkedin" href="https://www.linkedin.com/in/joao-cordeiro-0793692aaiu4t5bt5k3"><i class="fa-brands fa-linkedin"></i></a>
+                            </div> 
+                            <div>
+                                <a class="contactme-github" href="https://github.com/cordeiro50"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer-copyright">
+                <p class="copyright">© 2024 João Cordeiro. All Rights Reserved.</p>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!---------------------------js----------------------------------->
+
+
+    <!--------dropdown menu---------->
+    <script>
+        const gearButton = document.getElementById('icons-toggle');
+        const dropdownMenu = document.querySelector('.icons-dropdown');
+
+    // Toggle dropdown visibility on gear button click
+        gearButton.addEventListener('click', (event) => {
+            event.stopPropagation(); // Prevent click from propagating
+            dropdownMenu.classList.toggle('open');
+        });
+
+    // Hide dropdown if clicked outside
+        document.addEventListener('click', (event) => {
+            if (!gearButton.contains(event.target) && !dropdownMenu.contains(event.target)) {
+            dropdownMenu.classList.remove('open');
+        }
+        });
+    </script>
+
+
+    <!--------light / dark themes---------->
+    <script>
+        function setTheme(theme) {
+            document.documentElement.setAttribute('data-theme', theme);
+            localStorage.setItem('theme', theme);
+        }
+    
+    // Check for stored theme preference
+        const storedTheme = localStorage.getItem('theme');
+        if (storedTheme) {
+            document.documentElement.setAttribute('data-theme', storedTheme);
+        } else {
+        const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            document.documentElement.setAttribute('data-theme', systemPrefersDark ? 'dark' : 'light');
+        }
+    
+    // Event listeners for theme buttons
+        document.getElementById('light-mode').addEventListener('click', (event) => {
+            event.preventDefault();
+            setTheme('light');
+        });
+    
+        document.getElementById('dark-mode').addEventListener('click', (event) => {
+            event.preventDefault();
+            setTheme('dark');
+        });
+    
+        document.getElementById('system-mode').addEventListener('click', (event) => {
+            event.preventDefault();
+            const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            setTheme(systemPrefersDark ? 'dark' : 'light');
+        });
+    </script>
+
+
+    <!--------image slides header---------->
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+    // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+    // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+        let slide = 0;
+        autoShowSlides();
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("Slides");
+            let dots = document.getElementsByClassName("dot");
+
+        // If `n` is out of range, loop back
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+
+        // Hide all slides and remove "active" class from all dots
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+
+        // Show the current slide and add the "active" class to the corresponding dot
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+
+        function autoShowSlides() {
+            let slides = document.getElementsByClassName("Slides");
+            let dots = document.getElementsByClassName("dot");
+
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none"; // Hide all slides
+            }
+
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+
+            for (let i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", ""); // Remove "active" class
+            }
+
+            slides[slideIndex - 1].style.display = "block"; // Show current slide
+            dots[slideIndex - 1].className += " active"; // Activate corresponding dot
+
+            setTimeout(autoShowSlides, 8000); // Change image every 8 seconds
+        }
+    </script>
+
+
+    <!-----------------image zoom--------------->
+    <div id="image-modal" class="modal">
+        <span class="close-btn">&times;</span>
+        <img class="modal-content" id="modal-image">
+    </div>
+
+    <script>
+        const modal = document.getElementById('image-modal');
+        const modalImg = document.getElementById('modal-image');
+        const closeModal = document.querySelector('.close-btn');
+
+        document.querySelectorAll('.companyfacility-img, .team-img').forEach(img => {
+            img.addEventListener('click', () => {
+                modal.style.display = 'flex';
+                modalImg.src = img.src;
+            });
+        });
+
+        closeModal.addEventListener('click', () => {
+            modal.style.display = 'none';
+        });
+
+        modal.addEventListener('click', (event) => {
+            if (event.target === modal) {
+                modal.style.display = 'none';
+            }
+        });
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const modalContent = document.querySelector('.modal-content');
+
+        modalContent.addEventListener('mousemove', (e) => {
+            if (modalContent.classList.contains('zoomed')) {
+                const rect = modalContent.getBoundingClientRect();
+                const x = ((e.clientX - rect.left) / rect.width) * 100;
+                const y = ((e.clientY - rect.top) / rect.height) * 100;
+                modalContent.style.transformOrigin = `${x}% ${y}%`;
+            }
+        });
+
+        modalContent.addEventListener('click', () => {
+            if (modalContent.classList.contains('zoomed')) {
+                modalContent.classList.remove('zoomed');
+                modalContent.style.transformOrigin = "center";
+            } else {
+                modalContent.classList.add('zoomed');
+            }
+        });
+        });
+    </script>
+
+
+    <!--------back to top button---------->
+    <script>
+        window.addEventListener('scroll', () => {
+            const backToTop = document.getElementById('backToTop');
+            if (window.scrollY > 150) { 
+                backToTop.classList.add('show');
+            } else {
+                backToTop.classList.remove('show');
+            }
+        });
+    </script>
+
+    <!-------------------------------tradução----------------------------------------->
+
+    <script>
+        let languageButtons = document.querySelectorAll(".language-buttons i"); 
+    
+        let headerdata = {
+            en: {
+                header: {
+                    headernav: {
+                        headercompanyinformation: "Company Information",
+                        headerwork: "Work & Services",
+                        headercompanyfacility: "Company Facility",
+                        headerteam: "Team",
+                        headercontactus: "Contact Us"
+                    },
+                    headerdropdown: {
+                        headerwork1: "Hardware Creation, Design & Configuration",
+                        headerwork2: "Hardware Maintenance & Repair",
+                        headerwork3: "Prototyping and Testing",
+                        headerwork4: "Component Sourcing & Supply Chain Management",
+                        headercompanyfacility1: "Facility Layout",
+                        headercompanyfacility2: "Facility Network",
+                        headercompanyfacility3: "Facility Divisions",
+                        headerteam1: "Operational Departments",
+                        headerteam2: "Administrative Departments"
+                    },
+                    headerslides: {
+                        headerslidetext1: "Tiny Heroes, Big Impact: A Creative Take on Hardware Repair and Innovation.",
+                        headerslidetext2: "Innovating Through Code: Designing the Brains Behind Modern Hardware.",
+                        headerslidetext3: "Efficiency in Action: Managing Inventory and Supply to Power Every Project.",
+                        headerslidetext4: "Precision at Work: Replacing and Upgrading Critical Components for Optimal Performance.",
+                    }
+                }
+            },
+            pt: {
+                header: {
+                    headernav: {
+                        headercompanyinformation: "Informações da Empresa",
+                        headerwork: "Trabalhos e Serviços",
+                        headercompanyfacility: "Instalações da Empresa",
+                        headerteam: "Equipa",
+                        headercontactus: "Contacte-nos"
+                    },
+                    headerdropdown: {
+                        headerwork1: "Criação, Design e Configuração de Hardware",
+                        headerwork2: "Manutenção e Reparação de Hardware",
+                        headerwork3: "Modelagem e Testes",
+                        headerwork4: "Aprovisionamento de Componentes e Gestão da Cadeia de Suprimentos",
+                        headercompanyfacility1: "Layout das Instalações",
+                        headercompanyfacility2: "Rede das Instalações",
+                        headercompanyfacility3: "Divisões das Instalações",
+                        headerteam1: "Departamentos Operacionais",
+                        headerteam2: "Departamentos Administrativos"
+                    },
+                    headerslides: {
+                        headerslidetext1: "Heróis Pequenos, Grande Impacto: Uma Abordagem Criativa para Reparação e Inovação de Hardware.",
+                        headerslidetext2: "A Inovar com Código: Projetar o Cérebro por Detrás do Hardware Moderno.",
+                        headerslidetext3: "Eficiência em Ação: Gerir Inventário e Abastecimento para Alimentar Cada Projeto.",
+                        headerslidetext4: "Precisão no Trabalho: Substituir e Atualizar Componentes Críticos para um Desempenho Óptimo.",
+                    }
+                }
+            },
+            es: {
+                header: {
+                    headernav: {
+                        headercompanyinformation: "Información de la Empresa",
+                        headerwork: "Trabajo y Servicios",
+                        headercompanyfacility: "Instalaciones de la Empresa",
+                        headerteam: "Equipo",
+                        headercontactus: "Contáctanos"
+                    },
+                    headerdropdown: {
+                        headerwork1: "Creación, Diseño y Configuración de Hardware",
+                        headerwork2: "Mantenimiento y Reparación de Hardware",
+                        headerwork3: "Prototipado y Pruebas",
+                        headerwork4: "Abastecimiento de Componentes y Gestión de la Cadena de Suministro",
+                        headercompanyfacility1: "Diseño de las Instalaciones",
+                        headercompanyfacility2: "Red de las Instalaciones",
+                        headercompanyfacility3: "Divisiones de las Instalaciones",
+                        headerteam1: "Departamentos Operativos",
+                        headerteam2: "Departamentos Administrativos"
+                    },
+                    headerslides: {
+                        headerslidetext1: "Héroes Pequeños, Gran Impacto: Un Enfoque Creativo para la Reparación e Innovación de Hardware.",
+                        headerslidetext2: "Innovando con Código: Diseñando el Cerebro Detrás del Hardware Moderno.",
+                        headerslidetext3: "Eficiencia en Acción: Gestionar Inventario y Suministro para Impulsar Cada Proyecto.",
+                        headerslidetext4: "Precisión en el Trabajo: Reemplazar y Actualizar Componentes Críticos para un Rendimiento Óptimo.",
+                    }
+                }
+            }
+        }
+
+        let companyinformationdata = {
+            en: {
+                companyinformation: {
+                    companyinformationcontents: {
+                        companyinformationtextcontainerh1: "Company Information",
+                        companyinformationtextcontainerp: "ByteTech is a technology company specializing in the development of custom hardware for individual clients and businesses across various industries. Its main services include: hardware design or architecture and creation, hardware configuration, testing, and maintenance.<br><br>When creating this company, my goal was to implement a secure and efficient network infrastructure, integrating an Active Directory system for centralized resource management and a firewall to ensure the security of data and communications. Other objectives include: Planning and Analysis, Server and Active Directory Configuration, Firewall Implementation, Integration and Configuration of Services, Testing and Validation, Continuous Monitoring, and Backups.",
+
+                        readmorebuttoncompanyinformation: "Read More",
+                    },
+                }
+            },
+            pt: {
+                companyinformation: {
+                    companyinformationcontents: {
+                        companyinformationtextcontainerh1: "Informações da Empresa",
+                        companyinformationtextcontainerp: "A ByteTech é uma empresa de tecnologia especializada no desenvolvimento de hardware personalizado para clientes individuais e empresas de diversos setores. Os seus principais serviços incluem: design ou arquitetura e criação de hardware, configuração de hardware, testes e manutenção.<br><br>Ao criar esta empresa, o meu objetivo foi implementar uma infraestrutura de rede segura e eficiente, integrando um sistema de Active Directory para gestão centralizada de recursos e um firewall para garantir a segurança dos dados e comunicações. Outros objetivos incluem: Planeamento e Análise, Configuração de Servidor e Active Directory, Implementação de Firewall, Integração e Configuração de Serviços, Testes e Validação, Monitorização Contínua e Backups.",
+
+                        readmorebuttoncompanyinformation: "Ler Mais",
+                    },
+                }
+            },
+            es: {
+                companyinformation: {
+                    companyinformationcontents: {
+                        companyinformationtextcontainerh1: "Información de la Empresa",
+                        companyinformationtextcontainerp: "ByteTech es una empresa de tecnología especializada en el desarrollo de hardware personalizado para clientes individuales y empresas de diversos sectores. Sus principales servicios incluyen: diseño o arquitectura y creación de hardware, configuración de hardware, pruebas y mantenimiento.<br><br>Al crear esta empresa, mi objetivo fue implementar una infraestructura de red segura y eficiente, integrando un sistema de Active Directory para la gestión centralizada de recursos y un firewall para garantizar la seguridad de los datos y las comunicaciones. Otros objetivos incluyen: Planificación y Análisis, Configuración de Servidor y Active Directory, Implementación de Firewall, Integración y Configuración de Servicios, Pruebas y Validación, Monitoreo Continuo y Copias de Seguridad.",
+
+                        readmorebuttoncompanyinformation: "Leer Más",
+                    },
+                }
+            }
+        }
+
+        let workdata = {
+            en: {
+                work: {
+                    workcontents: {
+                        worktitle: "Our Work",
+                        workp1: "At ByteTech, we offer comprehensive services that cover all aspects of hardware development.<br><br>Our core services include Hardware Creation, Design & Configuration, Hardware Maintenance & Repair, Prototyping and Testing, and Component Sourcing & Supply Chain Management.<br>Each service is tailored to meet the unique needs of our clients, whether individuals or companies from various industries.<br><br>",
+                        workp2: "With a structured organization ensuring efficiency and quality, every department collaborates seamlessly to deliver high-quality products on time.<br>Combining expertise, innovation, and a commitment to excellence, ByteTech ensures every project exceeds client expectations while meeting the highest industry standards.",
+
+                        readmorebuttonwork: "Read More",
+                        
+                        worktextbaremcomputer: "Hardware Creation, Design & Configuration",
+                        worktextbaremwrench: "Hardware Maintenance & Repair",
+                        worktextbaremclipboard: "Prototyping and Testing",
+                        worktextbarempackage: "Component Sourcing & Supply Chain Management",
+                    },
+                }
+            },
+            pt: {
+                work: {
+                    workcontents: {
+                        worktitle: "O Nosso Trabalho",
+                        workp1: "Na ByteTech, oferecemos serviços abrangentes que cobrem todos os aspetos do desenvolvimento de hardware.<br><br>Os nossos serviços principais incluem Criação, Design e Configuração de Hardware, Manutenção e Reparação de Hardware, Modelagem e Testes, e Aprovisionamento de Componentes e Gestão da Cadeia de Suprimentos.<br>Cada serviço é adaptado às necessidades únicas dos nossos clientes, sejam eles indivíduos ou empresas de vários setores.<br><br>",
+                        workp2: "Com uma organização estruturada que garante eficiência e qualidade, cada departamento colabora de forma harmoniosa para entregar produtos de alta qualidade a tempo.<br>Combinando especialização, inovação e um compromisso com a excelência, a ByteTech garante que cada projeto supera as expectativas dos clientes, cumprindo os mais altos padrões da indústria.",
+
+                        readmorebuttonwork: "Ler Mais",
+                        
+                        worktextbaremcomputer: "Criação, Design e Configuração de Hardware",
+                        worktextbaremwrench: "Manutenção e Reparação de Hardware",
+                        worktextbaremclipboard: "Modelagem e Testes",
+                        worktextbarempackage: "Aprovisionamento de Componentes e Gestão da Cadeia de Suprimentos",
+                    },
+                }
+            },
+            es: {
+                work: {
+                    workcontents: {
+                        worktitle: "Nuestro Trabajo",
+                        workp1: "En ByteTech, ofrecemos servicios integrales que cubren todos los aspectos del desarrollo de hardware.<br><br>Nuestros servicios principales incluyen Creación, Diseño y Configuración de Hardware, Mantenimiento y Reparación de Hardware, Prototipado y Pruebas, y Abastecimiento de Componentes y Gestión de la Cadena de Suministro.<br>Cada servicio está diseñado para satisfacer las necesidades únicas de nuestros clientes, ya sean particulares o empresas de diversos sectores.<br><br>",
+                        workp2: "Con una organización estructurada que garantiza eficiencia y calidad, cada departamento colabora de manera fluida para entregar productos de alta calidad a tiempo.<br>Combinando experiencia, innovación y un compromiso con la excelencia, ByteTech asegura que cada proyecto supere las expectativas de los clientes mientras cumple con los más altos estándares de la industria.",
+
+                        readmorebuttonwork: "Leer Más",
+
+                        worktextbaremcomputer: "Creación, Diseño y Configuración de Hardware",
+                        worktextbaremwrench: "Mantenimiento y Reparación de Hardware",
+                        worktextbaremclipboard: "Prototipado y Pruebas",
+                        worktextbarempackage: "Abastecimiento de Componentes y Gestión de la Cadena de Suministro",
+                    },
+                }
+            }
+        }
+
+        let companyfacilitydata = {
+            en: {
+                companyfacility: {
+                    companyfacilitycontents: {
+                        companyfacilitytitle: "Company Facility",
+                        companyfacilityp: "The company's office space spans 189.55 m².<br>The entrance leads to the reception area. To the left are the restrooms, the directors' office, and the surveillance camera control room.<br>To the right, a corridor connects three office rooms, a meeting room, a server room, and the administration office.<br><br>Most of the work takes place in the three office rooms:",
+                        companyfacilityli1: "Project Management",
+                        companyfacilityli2: "Hardware Development",
+                        companyfacilityli3: "Quality Control",
+
+                        readmorebuttoncompanyfacility: "Read More",
+                    },
+                }
+            },
+            pt: {
+                companyfacility: {
+                    companyfacilitycontents: {
+                        companyfacilitytitle: "Instalações da Empresa",
+                        companyfacilityp: "As instalações da empresa ocupam 189,55 m².<br>A entrada leva à área de receção. À esquerda encontram-se as casas de banho, o escritório dos diretores e a sala de controlo das câmaras de vigilância.<br>À direita, um corredor liga três escritórios, uma sala de reuniões, uma sala de servidores e o escritório de administração.<br><br>A maior parte do trabalho ocorre nos três escritórios:",
+                        companyfacilityli1: "Gestão de Projetos",
+                        companyfacilityli2: "Desenvolvimento de Hardware",
+                        companyfacilityli3: "Controlo de Qualidade",
+
+                        readmorebuttoncompanyfacility: "Ler Mais",
+                    },
+                }
+            },
+            es: {
+                companyfacility: {
+                    companyfacilitycontents: {
+                        companyfacilitytitle: "Instalaciones de la Empresa",
+                        companyfacilityp: "Las instalaciones de la empresa abarcan 189,55 m².<br>La entrada conduce a la recepción. A la izquierda se encuentran los baños, la oficina de los directores y la sala de control de cámaras de vigilancia.<br>A la derecha, un pasillo conecta tres oficinas, una sala de reuniones, una sala de servidores y la oficina de administración.<br><br>La mayor parte del trabajo se realiza en las tres oficinas:",
+                        companyfacilityli1: "Gestión de Proyectos",
+                        companyfacilityli2: "Desarrollo de Hardware",
+                        companyfacilityli3: "Control de Calidad",
+
+                        readmorebuttoncompanyfacility: "Leer Más",
+                    },
+                }
+            }
+        }
+
+        let teamdata = {
+            en: {
+                team: {
+                    teamcontents: {
+                        teamtitle: "Our Team",
+                        teamtext: "The company has a team of 19 professionals distributed across 3 departments, along with an additional team of 4 directors. There is also an administrator, an accountant, a receptionist, and a security officer, all distributed across various divisions and departments of the company.<br>In total, there are 27 employees, not including the CEO.",
+
+                        readmorebuttonteam: "Read More",
+                    },
+                }
+            },
+            pt: {
+                team: {
+                    teamcontents: {
+                        teamtitle: "A nossa Equipa",
+                        teamtext: "A empresa conta com uma equipa de 19 profissionais distribuídos por 3 departamentos, juntamente com uma equipa adicional de 4 diretores. Existe também um administrador, um contabilista, um rececionista e um oficial de segurança, todos distribuídos por várias divisões e departamentos da empresa.<br>No total, são 27 funcionários, excluindo o CEO.",
+
+                        readmorebuttonteam: "Ler Mais",
+                    },
+                }
+            },
+            es: {
+                team: {
+                    teamcontents: {
+                        teamtitle: "Nuestro Equipo",
+                        teamtext: "La empresa cuenta con un equipo de 19 profesionales distribuidos en 3 departamentos, además de un equipo adicional de 4 directores. También hay un administrador, un contador, un recepcionista y un oficial de seguridad, todos distribuidos en varias divisiones y departamentos de la empresa.<br>En total, hay 27 empleados, sin incluir al CEO.",
+
+                        readmorebuttonteam: "Leer Más",
+                    },
+                }
+            }
+        }
+
+        let footerdata = {
+            en: {
+                footer: {
+                    footerdisclaimer: {
+                        footerdisclaimerh1: "Disclaimer",
+                        footerdisclaimerp1: "Byte Tech is a completely fictional company created solely for the purpose of this project.<br>All details regarding its employees, location, services, products, equipment, and other associated elements are entirely fictional and were developed as part of a conceptual project. This company does not exist in real life, and any resemblance to real businesses or individuals, living or dead, is purely coincidental.",
+                        footerdisclaimerp2: "The project, including its website, files, content, and operations, were created for educational, demonstrative, or academic purposes only.<br>No actual services, products, or transactions are being offered, and this project is non-commercial.<br>The project does not intend to mislead or confuse the public in any way, nor is it intended to generate profits or engage in business activities.",
+                    },
+                    footercontents: {
+                        footercol1p1: "This website was made using HTML, CSS and Java Script along with some icons from Font Awesome.<br><br>",
+                        footercol1p2: "If the website has any issues, please contact me.<br>Some of it's contents are subject to change.<br><br>",
+                        footercol1p3: "To view more projects visit the website's creator portfolio:",
+                        footercol1portfoliobutton: "My Portfolio",
+
+                        footercol2h1: "Download Word/PDF",
+                        footercol2download1: "Download Word",
+                        footercol2download2: "Download PDF",
+
+                        footercol3h1: "Contact Us",
+                        
+                        copyright: "© 2024 João Cordeiro. All Rights Reserved.",
+                    }
+                }
+            },
+            pt: {
+                footer: {
+                    footerdisclaimer: {
+                        footerdisclaimerh1: "Aviso de Isenção de Responsabilidade",
+                        footerdisclaimerp1: "A Byte Tech é uma empresa completamente fictícia criada exclusivamente para o propósito deste projeto.<br>Todos os detalhes relativos aos seus empregados, localização, serviços, produtos, equipamentos e outros elementos associados são totalmente fictícios e foram desenvolvidos como parte de um projeto conceptual. Esta empresa não existe na realidade e qualquer semelhança com negócios reais ou indivíduos, vivos ou mortos, é pura coincidência.",
+                        footerdisclaimerp2: "O projeto, incluindo o seu website, ficheiros, conteúdos e operações, foi criado apenas para fins educacionais, demonstrativos ou académicos.<br>Não são oferecidos serviços, produtos ou transações reais, e este projeto não é comercial.<br>O projeto não tem a intenção de enganar ou confundir o público de forma alguma, nem é destinado a gerar lucros ou a realizar atividades comerciais.",
+                    },
+                    footercontents: {
+                        footercol1p1: "Este website foi feito usando HTML, CSS e JavaScript, juntamente com alguns ícones do Font Awesome.<br><br>",
+                        footercol1p2: "Se o website tiver algum problema, por favor contacte-me.<br>Alguns dos seus conteúdos estão sujeitos a alterações.<br><br>",
+                        footercol1p3: "Para ver mais projetos, visite o portfólio do criador do website:",
+                        footercol1portfoliobutton: "Meu Portfólio",
+
+                        footercol2h1: "Transferir Word/PDF",
+                        footercol2download1: "Transferir Word",
+                        footercol2download2: "Transferir PDF",
+
+                        footercol3h1: "Contacte-nos",
+                        
+                        copyright: "© 2024 João Cordeiro. Todos os Direitos Reservados.",
+                    }
+                }
+            },
+            es: {
+                footer: {
+                    footerdisclaimer: {
+                        footerdisclaimerh1: "Descargo de Responsabilidad",
+                        footerdisclaimerp1: "Byte Tech es una empresa completamente ficticia creada únicamente con fines para este proyecto.<br>Todos los detalles relativos a sus empleados, ubicación, servicios, productos, equipos y otros elementos asociados son completamente ficticios y fueron desarrollados como parte de un proyecto conceptual. Esta empresa no existe en la realidad, y cualquier parecido con empresas reales o individuos, vivos o muertos, es pura coincidencia.",
+                        footerdisclaimerp2: "El proyecto, incluyendo su sitio web, archivos, contenido y operaciones, fue creado con fines educativos, demostrativos o académicos únicamente.<br>No se están ofreciendo servicios, productos ni transacciones reales, y este proyecto no es comercial.<br>El proyecto no tiene la intención de engañar o confundir al público de ninguna manera, ni tiene el propósito de generar ganancias o realizar actividades comerciales.",
+                    },
+                    footercontents: {
+                        footercol1p1: "Este sitio web fue creado usando HTML, CSS y JavaScript, junto con algunos iconos de Font Awesome.<br><br>",
+                        footercol1p2: "Si el sitio web presenta algún problema, por favor contacte conmigo.<br>Algunos de sus contenidos están sujetos a cambios.<br><br>",
+                        footercol1p3: "Para ver más proyectos, visite el portafolio del creador del sitio web:",
+                        footercol1portfoliobutton: "Mi Portafolio",
+
+                        footercol2h1: "Descargar Word/PDF",
+                        footercol2download1: "Descargar Word",
+                        footercol2download2: "Descargar PDF",
+
+                        footercol3h1: "Contáctenos",
+
+                        copyright: "© 2024 João Cordeiro. Todos los Derechos Reservados.",
+                    }
+                }
+            }
+        }
+
+
+        const headercompanyinformation = document.querySelector(".headercompanyinformation");
+        const headerwork = document.querySelector(".headerwork");
+        const headercompanyfacility = document.querySelector(".headercompanyfacility");
+        const headerteam = document.querySelector(".headerteam");
+        const headercontactus = document.querySelector(".headercontactus");
+
+        const headerwork1 = document.querySelector(".headerwork1");
+        const headerwork2 = document.querySelector(".headerwork2");
+        const headerwork3 = document.querySelector(".headerwork3");
+        const headerwork4 = document.querySelector(".headerwork4");
+        const headercompanyfacility1 = document.querySelector(".headercompanyfacility1");
+        const headercompanyfacility2 = document.querySelector(".headercompanyfacility2");
+        const headercompanyfacility3 = document.querySelector(".headercompanyfacility3");
+        const headerteam1 = document.querySelector(".headerteam1");
+        const headerteam2 = document.querySelector(".headerteam2");
+
+        const headerslidetext1 = document.querySelector(".headerslidetext1");
+        const headerslidetext2 = document.querySelector(".headerslidetext2");
+        const headerslidetext3 = document.querySelector(".headerslidetext3");
+        const headerslidetext4 = document.querySelector(".headerslidetext4");
+
+
+        const companyinformationtextcontainerh1 = document.querySelector(".companyinformation-text-container h1");
+        const companyinformationtextcontainerp = document.querySelector(".companyinformation-text-container p");
+
+        const readmorebuttoncompanyinformation = document.querySelector(".readmorebuttoncompanyinformation");
+
+
+        const worktitle = document.querySelector(".work-title h1");
+        const workp1 = document.querySelector(".work-text p:nth-child(1)");
+        const workp2 = document.querySelector(".work-text p:nth-child(2)");
+
+        const readmorebuttonwork = document.querySelector(".readmorebuttonwork");
+
+        const workTextBarP = document.querySelector(".work-text-bar p");
+
+
+        const companyfacilitytitle = document.querySelector(".companyfacility-title h1");
+        const companyfacilityp = document.querySelector(".companyfacility-text p");
+        const companyfacilityli1 = document.querySelector(".companyfacility-text li:nth-child(2)");
+        const companyfacilityli2 = document.querySelector(".companyfacility-text li:nth-child(3)");
+        const companyfacilityli3 = document.querySelector(".companyfacility-text li:nth-child(4)");
+
+        const readmorebuttoncompanyfacility = document.querySelector(".readmorebuttoncompanyfacility");
+
+
+        const teamtitle = document.querySelector(".team-title h1");
+        const teamtext = document.querySelector(".team-text p");
+
+        const readmorebuttonteam = document.querySelector(".readmorebuttonteam");
+
+
+        const footerdisclaimerh1 = document.querySelector(".footer-disclaimer h1");
+        const footerdisclaimerp1 = document.querySelector(".footer-disclaimer-p1");
+        const footerdisclaimerp2 = document.querySelector(".footer-disclaimer-p2");
+
+        const footercol1p1 = document.querySelector(".footer-col1-p1");
+        const footercol1p2 = document.querySelector(".footer-col1-p2");
+        const footercol1p3 = document.querySelector(".footer-col1-p3");
+        const footercol1portfoliobutton = document.querySelector(".footer-col1-portfolio-button");
+
+        const footercol2h1 = document.querySelector(".footer-col2-title h1");
+        const footercol2download1 = document.querySelector(".downloadwordfooter a");
+        const footercol2download2 = document.querySelector(".downloadpdffooter a");
+
+        const footercol3h1 = document.querySelector(".footer-col3 h1");
+
+        const copyright = document.querySelector(".copyright");
+
+
+        
+
+
+
+        languageButtons.forEach((el) => {
+            el.addEventListener("click", () => {
+                // Remove 'active' class from all buttons
+                languageButtons.forEach((button) => button.classList.remove("active"));
+
+                // Add 'active' class to the clicked button
+                el.classList.add("active");
+
+                // Get the selected language
+                const language = el.getAttribute("language");
+
+                // Update text content
+                headercompanyinformation.textContent = headerdata[language].header.headernav.headercompanyinformation;
+                headerwork.textContent = headerdata[language].header.headernav.headerwork;
+                headercompanyfacility.textContent = headerdata[language].header.headernav.headercompanyfacility;
+                headerteam.textContent = headerdata[language].header.headernav.headerteam;
+                headercontactus.textContent = headerdata[language].header.headernav.headercontactus;
+
+                headerwork1.textContent = headerdata[language].header.headerdropdown.headerwork1;
+                headerwork2.textContent = headerdata[language].header.headerdropdown.headerwork2;
+                headerwork3.textContent = headerdata[language].header.headerdropdown.headerwork3;
+                headerwork4.textContent = headerdata[language].header.headerdropdown.headerwork4;
+                headercompanyfacility1.textContent = headerdata[language].header.headerdropdown.headercompanyfacility1;
+                headercompanyfacility2.textContent = headerdata[language].header.headerdropdown.headercompanyfacility2;
+                headercompanyfacility3.textContent = headerdata[language].header.headerdropdown.headercompanyfacility3;
+                headerteam1.textContent = headerdata[language].header.headerdropdown.headerteam1;
+                headerteam2.textContent = headerdata[language].header.headerdropdown.headerteam2;
+
+                const arrowIcon = '<i class="fa-solid fa-arrow-right fa-rotate-90"></i>';
+                headerwork.innerHTML += ` ${arrowIcon}`;
+                headercompanyfacility.innerHTML += ` ${arrowIcon}`;
+                headerteam.innerHTML += ` ${arrowIcon}`;
+
+                headerslidetext1.textContent = headerdata[language].header.headerslides.headerslidetext1;
+                headerslidetext2.textContent = headerdata[language].header.headerslides.headerslidetext2;
+                headerslidetext3.textContent = headerdata[language].header.headerslides.headerslidetext3;
+                headerslidetext4.textContent = headerdata[language].header.headerslides.headerslidetext4;
+
+
+                companyinformationtextcontainerh1.textContent = companyinformationdata[language].companyinformation.companyinformationcontents.companyinformationtextcontainerh1;
+                companyinformationtextcontainerp.innerHTML = companyinformationdata[language].companyinformation.companyinformationcontents.companyinformationtextcontainerp;
+
+                readmorebuttoncompanyinformation.textContent = companyinformationdata[language].companyinformation.companyinformationcontents.readmorebuttoncompanyinformation;
+
+
+                worktitle.textContent = workdata[language].work.workcontents.worktitle;
+                workp1.innerHTML = workdata[language].work.workcontents.workp1;
+                workp2.innerHTML = workdata[language].work.workcontents.workp2;
+
+                readmorebuttonwork.textContent = workdata[language].work.workcontents.readmorebuttonwork;
+                
+                workTextBarP.innerHTML = `
+                    ${workdata[language].work.workcontents.worktextbaremcomputer} <i class="em em-computer" aria-role="presentation" aria-label="PERSONAL COMPUTER"></i>
+                    ${workdata[language].work.workcontents.worktextbaremwrench} <i class="em em-wrench" aria-role="presentation" aria-label="WRENCH"></i>
+                    ${workdata[language].work.workcontents.worktextbaremclipboard} <i class="em em-clipboard" aria-role="presentation" aria-label="CLIPBOARD"></i>
+                    ${workdata[language].work.workcontents.worktextbarempackage} <i class="em em-package" aria-role="presentation" aria-label="PACKAGE"></i>
+                `;
+
+
+                companyfacilitytitle.textContent = companyfacilitydata[language].companyfacility.companyfacilitycontents.companyfacilitytitle;
+                companyfacilityp.innerHTML = companyfacilitydata[language].companyfacility.companyfacilitycontents.companyfacilityp;
+                companyfacilityli1.textContent = companyfacilitydata[language].companyfacility.companyfacilitycontents.companyfacilityli1;
+                companyfacilityli2.textContent = companyfacilitydata[language].companyfacility.companyfacilitycontents.companyfacilityli2;
+                companyfacilityli3.textContent = companyfacilitydata[language].companyfacility.companyfacilitycontents.companyfacilityli3;
+
+                readmorebuttoncompanyfacility.textContent = companyfacilitydata[language].companyfacility.companyfacilitycontents.readmorebuttoncompanyfacility;
+                
+
+                teamtitle.textContent = teamdata[language].team.teamcontents.teamtitle;
+                teamtext.innerHTML = teamdata[language].team.teamcontents.teamtext;
+                
+                readmorebuttonteam.textContent = teamdata[language].team.teamcontents.readmorebuttonteam;
+
+
+                footerdisclaimerh1.textContent = footerdata[language].footer.footerdisclaimer.footerdisclaimerh1;
+                footerdisclaimerp1.innerHTML = footerdata[language].footer.footerdisclaimer.footerdisclaimerp1;
+                footerdisclaimerp2.innerHTML = footerdata[language].footer.footerdisclaimer.footerdisclaimerp2;
+
+                footercol1p1.innerHTML = footerdata[language].footer.footercontents.footercol1p1;
+                footercol1p2.innerHTML = footerdata[language].footer.footercontents.footercol1p2;
+                footercol1p3.innerHTML = footerdata[language].footer.footercontents.footercol1p3;
+                footercol1portfoliobutton.textContent = footerdata[language].footer.footercontents.footercol1portfoliobutton;
+
+                footercol2h1.textContent = footerdata[language].footer.footercontents.footercol2h1;
+                footercol2download1.textContent = footerdata[language].footer.footercontents.footercol2download1;
+                footercol2download2.textContent = footerdata[language].footer.footercontents.footercol2download2;
+
+                footercol3h1.textContent = footerdata[language].footer.footercontents.footercol3h1;
+
+                copyright.textContent = footerdata[language].footer.footercontents.copyright;
+
+
+            });
+        });
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
+
+
